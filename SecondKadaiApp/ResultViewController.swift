@@ -15,8 +15,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        label.text = text
-        // Do any additional setup after loading the view.
+        label.text = ("こんにちは、\(text)　さん")        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
